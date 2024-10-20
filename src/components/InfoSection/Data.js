@@ -1,0 +1,51 @@
+import svg1 from '../../images/shargan.jpg';
+import svg2 from '../../images/svg-2.svg';
+import svg3 from '../../images/journey2.jpg';
+export const homeObjOne = { 
+    id :'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine:'Shargan Consulting',
+    headLine: 'Training, Consulting, Recruitment',
+    description:'A new consulting company offering personalized services in human resource management, recruitment, training, and talent development.',
+    buttonLabel:'Get Started',
+    imgStart:true,
+    img: svg1,
+    alt:'car',
+    dark:true,
+    primary:true,
+    darkText:false,
+};
+export const homeObjTwo = { 
+    id :'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine:'Our mission',
+    headLine: 'Tailored consulting for sustainable growth.',
+    description:'We aim to provide customized and innovative consulting solutions that help our clients improve performance, develop their human capacity and achieve long-term sustainability.',
+    buttonLabel:'Learn More',
+    imgStart:false,
+    img: svg2,
+    alt:'image',
+    dark:true,
+    primary:false,
+    darkText:true,
+};
+export const homeObjThree = { 
+    id:'signin',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine:'STUDENT JOURNEY ALBANIA',
+    headLine: 'International Student Support',
+    description:'Student Journey Albania aims to facilitate the academic and cultural experiences of international students in Albania through comprehensive support at every stage, from information gathering and applications to social integration and graduation. Our mission is to promote Albania as an attractive higher education destination, providing reliable information and personalized services. We envision becoming the leading platform for attracting international students, fostering a global community that connects students to Albania educational opportunities and culture.',
+    buttonLabel:'Join Us',
+    imgStart:false,
+    img: svg3,
+    alt:'img',
+    dark:true,
+    primary:false,
+    darkText:true,
+};
